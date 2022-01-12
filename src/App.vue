@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2022-01-12 17:44:29
+ * @LastEditTime: 2022-01-12 17:58:09
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \vue-cms-ts\src\App.vue
+-->
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
@@ -6,6 +14,15 @@
   <router-view />
 </template>
 
+<script lang="ts">
+export default {
+  data() {
+    return {
+      msg: '34324'
+    }
+  }
+}
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
