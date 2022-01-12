@@ -7,15 +7,19 @@
  * @FilePath: \vue-cms-ts\src\App.vue
 -->
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <img src="" alt="" />
+
+  <router-link to="/login">登录</router-link>
+  <router-link to="/main">首页</router-link>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
-export default {}
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App'
+})
 </script>
 <style lang="less">
 #app {
