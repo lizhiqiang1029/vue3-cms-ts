@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-01-12 17:44:29
- * @LastEditTime: 2022-01-12 17:58:09
+ * @LastEditTime: 2022-01-12 18:46:57
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \vue-cms-ts\src\App.vue
@@ -15,13 +15,7 @@
 </template>
 
 <script lang="ts">
-export default {
-  data() {
-    return {
-      msg: '34324'
-    }
-  }
-}
+export default {}
 </script>
 <style lang="less">
 #app {
